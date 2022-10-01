@@ -1,0 +1,52 @@
++++
+title = "Moe"
+linkTitle = "Moe Editor"
+
++++
+
+{{< blocks/cover title="Welcome to moe!" image_anchor="top" height="full" color="dark" >}}
+<div class="mx-auto">
+	<a class="btn btn-lg btn-primary mr-3 mb-4" href="https://github.com/fox0430/moe">
+		Download <i class="fab fa-github ml-2 "></i>
+	</a>
+	<p class="lead mt-5">A CLI based editor in Nim</p>
+	{{< blocks/link-down color="white" >}}
+</div>
+{{< /blocks/cover >}}
+
+
+{{% blocks/lead color="dark" %}}
+**Features**
+{{% /blocks/lead %}}
+
+{{< blocks/section color="dark" >}}
+
+{{% blocks/feature icon="fa-lightbulb" title="Written in Nim" url="https://nim-lang.org" %}}
+moe developing in **Nim**. It's a statically typed compiled language. It provides generating native executables, modern type system, memory management, macro system and more.
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fa-lightbulb" title="Vim like modes and keybinds" %}}
+moe is heavily inspired by Vim. It supported vim like keybinds and some modes. Normal mode, Insert mode, Visual mode, Command mode, etc....
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fa-lightbulb" title="GapBuffer" %}}
+moe use GapBuffer for buffer management. It's a data structure suitable for text editors.
+{{% /blocks/feature %}}
+
+{{< /blocks/section >}}
+
+{{< blocks/section color="dark" >}}
+
+{{% blocks/feature icon="fa-lightbulb" title="Unicode" %}}
+moe support UTF-8 and other encodings. And support full-width characters.
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fa-lightbulb" title="Autocomplete" %}}
+You can use a simple autocomplete. You don't need any settings. It suggests words in opened buffers.
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fa-lightbulb" title="Configuration file" %}}
+moe support a configuration file. You can easliy write in TOML.
+{{% /blocks/feature %}}
+
+{{< /blocks/section >}}
