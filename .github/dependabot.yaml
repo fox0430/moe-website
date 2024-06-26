@@ -7,8 +7,6 @@ updates:
       time: '00:00'
     assignees:
       - fox0430
-    commit-message:
-      include: scope
     target-branch: "main"
 
   - package-ecosystem: npm
@@ -18,6 +16,4 @@ updates:
       time: '00:00'
     assignees:
       - fox0430
-    commit-message:
-      include: scope
     target-branch: "main"
