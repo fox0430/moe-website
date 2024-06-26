@@ -1,0 +1,23 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      time: '00:00'
+    assignees:
+      - fox0430
+    commit-message:
+      include: scope
+    target-branch: "main"
+
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      time: '00:00'
+    assignees:
+      - fox0430
+    commit-message:
+      include: scope
+    target-branch: "main"
